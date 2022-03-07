@@ -136,7 +136,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2017 - May 2021",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Blockchain, Operating Systems, Algorithms, Data Structures, and Computer Networks."
+        "Ranked top 10% in the program. Took courses on Software Engineering, Blockchain, Operating Systems, Algorithms, Data Structures, and Computer Networks."
     }
   ]
 };
