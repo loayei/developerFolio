@@ -127,13 +127,13 @@ const educationInfo = {
     {
       schoolName: "California State University, Fullerton",
       logo: require("./assets/images/CSUF.svg"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Masters of Science in Computer Science",
       duration: "Fall 2022"
     },
     {
       schoolName: "California State University, Fullerton",
       logo: require("./assets/images/CSUF.svg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelors of Science in Computer Science",
       duration: "August 2017 - May 2021",
       desc:
         "Ranked top 10% in the program. Took courses on Software Engineering, Blockchain, Operating Systems, Algorithms, Data Structures, and Computer Networks."
