@@ -179,6 +179,19 @@ const workExperiences = {
       ]
     },
     {
+      role: "Owner / Website Developer",
+      company: "B7 Customs",
+      companylogo: require("./assets/images/b7Logo.png"),
+      date: "December 2021 – Present",
+      desc:
+        "B7 Customs is a company that provides a wide range of auto customization services.",
+      descBullets: [
+        "Developed a serverless website for B7 Customs using React and deployed using Netlify.",
+        "Integrated Netlify forms to allow customers to contact B7 Customs.",
+        "www.b7customs.com"
+      ]
+    },
+    {
       role: "Software Tester",
       company: "SurePrep",
       companylogo: require("./assets/images/sureLogo.png"),
