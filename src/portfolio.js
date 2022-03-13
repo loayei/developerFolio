@@ -220,7 +220,7 @@ const workExperiences = {
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+To know how to get github key look at readme.md*/
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
