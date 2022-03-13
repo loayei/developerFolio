@@ -179,6 +179,18 @@ const workExperiences = {
       ]
     },
     {
+      role: "Treasurer / Master of Coin",
+      company: "TuffyVerse",
+      companylogo: require("./assets/images/TuffyLogo.webp"),
+      date: "March 2021 – Present",
+      desc:
+        "A group of Crypto advocates live in our own Metaverse, TuffyVerse. Originally, Blockchain Club at California State University, Fullerton.",
+      descBullets: [
+        "Responsible for the managing the TuffyVerse group's finances, including the creation of a new cryptocurrency, TUFFYTOKEN",
+        "www.tuffyverse.com"
+      ]
+    },
+    {
       role: "Owner / Website Developer",
       company: "B7 Customs",
       companylogo: require("./assets/images/b7Logo.png"),
