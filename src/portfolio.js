@@ -68,6 +68,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
       skillName: "solidity",
       fontAwesomeClassname: "fab fa-ethereum"
     },
