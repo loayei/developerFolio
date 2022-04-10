@@ -283,6 +283,17 @@ const achievementSection = {
           url: "https://hackathon.avalanchesummit.com/home"
         }
       ]
+    },
+    {
+      title: "Near Academy",
+      subtitle: "Completed near academy certification",
+      image: require("./assets/images/a4.jpg"),
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://near.academy"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
