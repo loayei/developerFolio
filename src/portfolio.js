@@ -286,12 +286,23 @@ const achievementSection = {
     },
     {
       title: "Near Academy",
-      subtitle: "Completed near academy certification",
+      subtitle: "Completed Near Academy Certification",
       image: require("./assets/images/a4.jpg"),
       footerLink: [
         {
           name: "Website",
           url: "https://near.academy"
+        }
+      ]
+    },
+    {
+      title: "Encode Club BootCamp",
+      subtitle: "Solana / RUST Bootcamp",
+      image: require("./assets/images/encode.jpg"),
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://encode.club"
         }
       ]
     }
