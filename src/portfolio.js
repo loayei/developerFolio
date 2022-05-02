@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -40,20 +40,34 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "California State University, Fullerton",
+      logo: require("./assets/images/CSUF.svg"),
+      subHeader: "Masters of Science in Computer Science",
+      duration: "Fall 2022"
+    },
+    {
+      schoolName: "California State University, Fullerton",
+      logo: require("./assets/images/CSUF.svg"),
+      subHeader: "Bachelors of Science in Computer Science",
+      duration: "August 2017 - May 2021",
+      desc:
+        "Ranked top 10% in the program. Took courses on Software Engineering, Blockchain, Operating Systems, Algorithms, Data Structures, and Computer Networks."
+    }
+  ]
+};
+
 // Skills Section
 
 const skillsSection = {
   title: "What I am",
   subTitle: "Computer Enthusiast 💻 and Blockchain Developer 📈",
-  skills: [
-    emoji(
-      "⚡ Develop highly scalable and secure Web and Mobile applications using React/Javascript/Next.js"
-    ),
-    emoji("⚡ Web3 and Solidity development using hardhat and ethers"),
-    emoji(
-      "⚡ Deploying and managing smart contracts on the Ethereum blockchain and Ethereum-based networks"
-    )
-  ],
+  skills: [emoji(""), emoji(""), emoji("")],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -123,32 +137,10 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "California State University, Fullerton",
-      logo: require("./assets/images/CSUF.svg"),
-      subHeader: "Masters of Science in Computer Science",
-      duration: "Fall 2022"
-    },
-    {
-      schoolName: "California State University, Fullerton",
-      logo: require("./assets/images/CSUF.svg"),
-      subHeader: "Bachelors of Science in Computer Science",
-      duration: "August 2017 - May 2021",
-      desc:
-        "Ranked top 10% in the program. Took courses on Software Engineering, Blockchain, Operating Systems, Algorithms, Data Structures, and Computer Networks."
-    }
-  ]
-};
-
 // Your top 3 proficient  stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", // Insert stack or technology you have experience in
