@@ -164,15 +164,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Blockchain Intern",
-      company: "Float Capital",
-      companylogo: require("./assets/images/floatLogo.png"),
-      date: "February 2022 – Present",
-      desc:
-        "Contributing to tasks such as creating a new smart contract, deploying the contract to the Avalanche/Polygon network, and managing the contract's state.",
-      descBullets: [
-        "Deploying Ethereum Push Notification Service (EPS) to send notifications to users on the Avalanche/Polygon network"
-      ]
+      role: "Senior Cloud Developer",
+      company: "IBM",
+      companylogo: require("./assets/images/IBM.svg"),
+      date: "July 2022 – Present",
+      desc: "",
+      descBullets: ""
     },
     {
       role: "Treasurer / Master of Coin",
@@ -187,29 +184,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Owner / Website Developer",
-      company: "B7 Customs",
-      companylogo: require("./assets/images/b7Logo.png"),
-      date: "December 2021 – Present",
+      role: "Backend Developer",
+      company: "Paramount",
+      companylogo: require("./assets/images/paramount.avif"),
+      date: "August 2017 – July 2022",
       desc:
-        "B7 Customs is a company that provides a wide range of auto customization services.",
+        "Worked on the Video Technology team to develop services and infrastructure to stream videos across multiple regions and availability zones",
       descBullets: [
-        "Developed a serverless website for B7 Customs using React and deployed using Netlify.",
-        "Integrated Netlify forms to allow customers to contact B7 Customs.",
-        "www.b7customs.com"
-      ]
-    },
-    {
-      role: "Software Tester",
-      company: "SurePrep",
-      companylogo: require("./assets/images/sureLogo.png"),
-      date: "January 2019 – June 2021",
-      desc:
-        "Testing software applications and fixing bugs in the software. Ensuring that the software meets the requirements of the client.",
-      descBullets: [
-        "Testing if the Optical Character Recognition (OCR) software is able to read the text from the scanned documents.",
-        "Testing if the digital documents are able to be populated with the correct information from the scanned documents.",
-        "Manage permissions for employees to access the software."
+        "Setup and maintained infrastructure both on-prem and in the major public clouds including AWS, GCP and Azure",
+        " Worked on the Super Bowl team to improve failover technologies at the application and infrastructure levels",
+        "Worked on the micro flock team to develop an in-house tool for on-demand video editing in Go",
+        "Worked on the bakery team to develop an in-house video encoding tool in Go"
       ]
     }
   ]
